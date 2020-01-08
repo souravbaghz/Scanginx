@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
 # Nginx - Remote Integer Overflow Vulnerability
@@ -19,7 +19,7 @@ print ('''%s   _|_|_|                                          _|
   - https://github.com/SouravSec             _|_|        ::Happy Hunting''' % red)
 print ('''%s ''' % ENDC)                                            
 
-# finsh banner 
+# finish banner 
 import requests
 import logging
 import sys
