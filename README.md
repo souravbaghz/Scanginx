@@ -6,8 +6,8 @@
 Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer overflow vulnerability in nginx range filter module resulting into leak of potentially sensitive information triggered by specially crafted request.
 
 # Setup
-    git clone https://github.com/SouravSec/Scanginx
-    cd Scanginx
+    git clone https://github.com/souravbaghz/scanginx
+    cd scanginx
     chmod +x scanner.py
  
  # Run/Scanning
@@ -15,7 +15,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
  # Dumper - Dump Cache
     python dumper.py <URL>
   
- Follow on Social Media:[Instagram](https://www.instagram.com/itninja.official).
+ Follow on Social Media:[Instagram](https://www.x.com/souravbaghz).
     
  <p align="center">
  HAPPY HACKING
